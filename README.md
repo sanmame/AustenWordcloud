@@ -39,4 +39,4 @@ Testing the app
 ========================================================
 ... we get the following wordcloud, where we see that "mrs" and "emma" are the most frequent words in "Emma".
 
-![plot of chunk unnamed-chunk-3](austen_wordcloud-figure/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](unnamed-chunk-3-1.png)
