@@ -1,6 +1,6 @@
 # Wordcloud for Jane Austen's works
 
-Project for Johns Hopkins Coursera course Developing Data Products, cours 9 of the Data Science Specialization
+Project for Johns Hopkins Coursera course Developing Data Products, course 9 of the Data Science Specialization
 
 Shiny App: Wordcloud for Jane Austen's works
 
