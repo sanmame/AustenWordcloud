@@ -4,16 +4,9 @@ library(shiny)
 shinyServer(function(input, output, session) {
     # Define a reactive expression for the document term matrix
     terms <- reactive({
-        # Change when the "update" button is pressed...
         input$update
-        # ...but not for anything else
-        isolate({
-            withProgress({
-                setProgress(message = "Processing corpus...")
-                getTermMatrix(input$selection)
-            })
+        readRDS(file = (paste0("tm_",input$selection,".rds")))
         })
-    })
     
     # Make the wordcloud drawing predictable during a session
     wordcloud_rep <- repeatable(wordcloud)
